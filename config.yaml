@@ -1,0 +1,41 @@
+# ── Job Scanner configuration ─────────────────────────────────────────────
+# Edit the search terms / locations below to taste. Credentials come from
+# environment variables (see README) — never put passwords in this file.
+
+# Roles you want. Each becomes a separate search query on both sites.
+keywords:
+  - marketing
+  - brand marketing
+  - growth marketing
+  - marketing strategy
+  - strategy
+  - strategy and planning
+  - business strategy
+  - corporate strategy
+  - strategy analyst
+  - product marketing
+  - category manager
+  - business analyst strategy
+  - management consulting
+
+# Locations to search (India). "" = anywhere in India.
+locations:
+  - Mumbai
+  - India
+  - Remote
+
+# Only keep jobs posted within this many hours.
+max_age_hours: 24
+
+# A job must score at least this (0-100) to make your list.
+min_match_score: 35
+
+# Cap the number of rows in the emailed Excel (best matches first).
+max_results: 60
+
+# ── Email ─────────────────────────────────────────────────────────────────
+email:
+  subject: "Your List"
+  # 'to' and 'from' default to the GMAIL_ADDRESS env var if left blank.
+  to: ""
+  from: ""

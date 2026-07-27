@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- macOS local schedule: runs run.sh every day at 21:00 (9 PM) local time.
+     Install:
+       cp launchd/com.ajinkya.jobscanner.plist ~/Library/LaunchAgents/
+       launchctl load ~/Library/LaunchAgents/com.ajinkya.jobscanner.plist
+     (Edit the two absolute paths below if you move the project.) -->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.ajinkya.jobscanner</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/ajinkya/Coding Projects/job-scanner/run.sh</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/Users/ajinkya/Coding Projects/job-scanner</string>
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key><integer>21</integer>
+        <key>Minute</key><integer>0</integer>
+    </dict>
+    <key>StandardOutPath</key>
+    <string>/Users/ajinkya/Coding Projects/job-scanner/launchd.out.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/ajinkya/Coding Projects/job-scanner/launchd.err.log</string>
+</dict>
+</plist>
