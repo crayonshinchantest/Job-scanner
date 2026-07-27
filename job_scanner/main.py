@@ -10,8 +10,11 @@ import sys
 
 import yaml
 
+from .experience import within_cap
+from .geo import is_india
 from .matcher import score_job
 from .report import build_excel, send_email
+from .resumes import recommend
 from .sources import Job, adzuna, linkedin, naukri
 
 CONFIG_PATH = os.environ.get("JOB_SCANNER_CONFIG", "config.yaml")
@@ -61,13 +64,29 @@ def main() -> int:
             linkedin.enrich(job)
             enriched += 1
 
+    cap = int(cfg.get("max_experience_years", 3))
+    kept: list[Job] = []
+    dropped_geo = dropped_exp = dropped_score = 0
     for job in jobs:
         job.score, job.matched = score_job(job.title, job.description)
+        if not is_india(job.location):
+            dropped_geo += 1
+            continue
+        ok, exp_label = within_cap(job.description, cap)
+        job.experience_req = exp_label
+        if not ok:
+            dropped_exp += 1
+            continue
+        if job.score < cfg["min_match_score"]:
+            dropped_score += 1
+            continue
+        job.resume, job.resume_path = recommend(job.title, job.description, job.company)
+        kept.append(job)
 
-    jobs = [j for j in jobs if j.score >= cfg["min_match_score"]]
-    jobs.sort(key=lambda j: j.score, reverse=True)
-    jobs = jobs[: cfg["max_results"]]
-    print(f"Found {len(jobs)} matching jobs above score {cfg['min_match_score']}.")
+    kept.sort(key=lambda j: j.score, reverse=True)
+    jobs = kept[: cfg["max_results"]]
+    print(f"Kept {len(jobs)} jobs (dropped {dropped_geo} non-India, "
+          f"{dropped_exp} over {cap} yrs exp, {dropped_score} low-match).")
 
     out_dir = os.environ.get("JOB_SCANNER_OUT", ".")
     os.makedirs(out_dir, exist_ok=True)

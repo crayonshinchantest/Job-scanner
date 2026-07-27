@@ -29,10 +29,14 @@ HEADERS = {
 
 def fetch(keyword: str, location: str, max_age_hours: int) -> list[Job]:
     # f_TPR=r<seconds> restricts to jobs posted in the last N seconds.
+    # f_E filters experience level: 1=intern, 2=entry, 3=associate (0-3 yrs).
+    # geoId 102713980 = India, to keep results in-country at the source.
     params = {
         "keywords": keyword,
         "location": location or "India",
+        "geoId": "102713980",
         "f_TPR": f"r{int(max_age_hours) * 3600}",
+        "f_E": "1,2,3",
         "sortBy": "DD",   # date, descending
         "start": 0,
     }

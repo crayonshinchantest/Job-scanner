@@ -13,8 +13,9 @@ from openpyxl.utils import get_column_letter
 
 from .sources import Job
 
-HEADERS = ["#", "Match %", "Title", "Company", "Location", "Source",
-           "Posted", "Why it fits (keywords)", "Apply link"]
+HEADERS = ["#", "Match %", "Title", "Company", "Location", "Exp needed",
+           "Source", "Posted", "Recommended resume", "Why it fits (keywords)",
+           "Apply link"]
 
 
 def build_excel(jobs: list[Job], path: str) -> str:
@@ -37,10 +38,12 @@ def build_excel(jobs: list[Job], path: str) -> str:
         ws.cell(row=row, column=3, value=j.title)
         ws.cell(row=row, column=4, value=j.company)
         ws.cell(row=row, column=5, value=j.location)
-        ws.cell(row=row, column=6, value=j.source)
-        ws.cell(row=row, column=7, value=j.posted)
-        ws.cell(row=row, column=8, value=", ".join(j.matched[:8]))
-        link = ws.cell(row=row, column=9, value=j.url or "")
+        ws.cell(row=row, column=6, value=j.experience_req)
+        ws.cell(row=row, column=7, value=j.source)
+        ws.cell(row=row, column=8, value=j.posted)
+        ws.cell(row=row, column=9, value=j.resume)
+        ws.cell(row=row, column=10, value=", ".join(j.matched[:8]))
+        link = ws.cell(row=row, column=11, value=j.url or "")
         if j.url:
             link.hyperlink = j.url
             link.font = Font(color="0563C1", underline="single")
@@ -48,7 +51,7 @@ def build_excel(jobs: list[Job], path: str) -> str:
         fill = "C6EFCE" if j.score >= 60 else ("FFEB9C" if j.score >= 40 else "FCE4D6")
         ws.cell(row=row, column=2).fill = PatternFill("solid", fgColor=fill)
 
-    widths = [4, 8, 40, 26, 22, 10, 16, 34, 46]
+    widths = [4, 8, 38, 24, 20, 11, 9, 15, 34, 30, 44]
     for col, w in enumerate(widths, start=1):
         ws.column_dimensions[get_column_letter(col)].width = w
     ws.freeze_panes = "A2"
@@ -73,13 +76,16 @@ def send_email(path: str, jobs: list[Job], subject: str, to_addr: str,
     today = dt.date.today().strftime("%d %b %Y")
     top = jobs[:5]
     lines = "\n".join(
-        f"  {j.score}%  {j.title} — {j.company} ({j.source})" for j in top
+        f"  {j.score}%  {j.title} — {j.company}\n"
+        f"        exp: {j.experience_req} | apply with: {j.resume}" for j in top
     ) or "  (no new matches in the last 24h)"
     body = (
         f"Hi Ajinkya,\n\n"
-        f"Here are {len(jobs)} marketing & strategy roles posted in the last "
-        f"24 hours that fit your resume, best matches first. Full list is in "
-        f"the attached Excel.\n\nTop picks:\n{lines}\n\n"
+        f"Here are {len(jobs)} India-based marketing & strategy roles (0-3 yrs "
+        f"experience) posted in the last 24 hours that fit your resume, best "
+        f"matches first. The full list — with the resume to apply with and the "
+        f"apply link for each — is in the attached Excel.\n\n"
+        f"Top picks:\n{lines}\n\n"
         f"Generated automatically on {today}.\n"
     )
 

@@ -13,3 +13,6 @@ class Job:
     description: str = ""
     score: int = 0
     matched: list = field(default_factory=list)
+    experience_req: str = ""  # e.g. "0-2 yrs" or "not stated"
+    resume: str = ""          # recommended resume label
+    resume_path: str = ""     # path within "Resumes all/" to that resume

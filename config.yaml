@@ -18,14 +18,22 @@ keywords:
   - business analyst strategy
   - management consulting
 
-# Locations to search (India). "" = anywhere in India.
+# Locations to search — India only. Add/remove hubs as you like.
 locations:
-  - Mumbai
   - India
-  - Remote
+  - Mumbai
+  - Bengaluru
+  - Delhi
+  - Pune
+  - Hyderabad
+  - Gurgaon
 
 # Only keep jobs posted within this many hours.
 max_age_hours: 24
+
+# Drop jobs that require more than this many years of experience.
+# (You have ~1 yr, so 0-3 yr roles.)
+max_experience_years: 3
 
 # A job must score at least this (0-100) to make your list.
 min_match_score: 35
