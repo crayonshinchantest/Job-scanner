@@ -50,6 +50,45 @@ SKIP_EMAIL=1 python3 -m job_scanner.main
 set -a; source .env; set +a; python3 -m job_scanner.main
 ```
 
+## Dashboard (Streamlit web app)
+
+A private, password-gated web dashboard to track applications: see every job the
+scanner found, click **✅ Applied**, record **which resume** you used, and move
+each role through a pipeline (New → Applied → Interview → Offer/Rejected). Your
+history is saved in `data/applications.json` in this repo, so it persists forever
+and stays private to you. All free — no database or extra service.
+
+**How data flows:** the daily Action saves scanned jobs to `data/jobs.json` and
+commits it. The dashboard reads that plus `data/applications.json` (your status
+choices) live from the repo via a token.
+
+### Deploy it (one-time, ~10 min, all free)
+
+1. **Make the repo Private** (Settings → General → Change visibility). It holds
+   your job-search activity.
+2. **Create a fine-grained Personal Access Token** so the app can save your
+   application status: GitHub → Settings → Developer settings → *Fine-grained
+   tokens* → Generate. Repository access = only `job-scanner`. Permissions →
+   **Contents: Read and write**. Copy the token.
+3. **Deploy on Streamlit Community Cloud** (free): <https://share.streamlit.io>
+   → sign in with GitHub → **Create app** → pick this repo, branch `main`, main
+   file `app.py`.
+4. In the app's **Advanced settings → Secrets**, paste:
+   ```toml
+   GITHUB_REPO = "your-username/job-scanner"
+   GITHUB_TOKEN = "github_pat_...."     # the token from step 2
+   GITHUB_BRANCH = "main"
+   APP_PASSWORD = "pick-a-password"     # you'll type this to open the app
+   ```
+5. Deploy. Open the URL, enter your password — that's your private dashboard.
+   Bookmark it on your phone. It auto-updates each day after the 9 PM scan.
+
+Run it locally instead (uses the local `data/` files, no token needed):
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
 ## Files
 - `config.yaml` — search keywords, locations, thresholds, email subject.
 - `job_scanner/profile.py` — resume keywords used for scoring.
@@ -58,6 +97,11 @@ set -a; source .env; set +a; python3 -m job_scanner.main
 - `job_scanner/report.py` — Excel builder + Gmail sender.
 - `.github/workflows/daily.yml` — the 9 PM schedule for GitHub Actions.
 - `launchd/…plist` — the 9 PM schedule for macOS.
+- `app.py` — the Streamlit tracking dashboard.
+- `gh_api.py` — reads/writes the JSON data files in your repo (dashboard persistence).
+- `job_scanner/store.py` — writes `data/jobs.json` for the dashboard.
+- `data/jobs.json` — scanned jobs (written by the Action).
+- `data/applications.json` — your Applied status + resume used (written by the dashboard).
 
 ## Notes / honesty
 - These are public endpoints; they can rate-limit or change their markup, in

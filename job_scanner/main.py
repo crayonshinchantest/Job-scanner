@@ -16,6 +16,7 @@ from .matcher import score_job
 from .report import build_excel, send_email
 from .resumes import recommend
 from .sources import Job, adzuna, linkedin, naukri
+from .store import merge_and_save
 
 CONFIG_PATH = os.environ.get("JOB_SCANNER_CONFIG", "config.yaml")
 
@@ -94,6 +95,11 @@ def main() -> int:
     path = os.path.join(out_dir, fname)
     build_excel(jobs, path)
     print(f"Wrote {path}")
+
+    # Persist to the rolling store the dashboard reads (committed by the Action).
+    store_path = os.environ.get("JOBS_STORE", "data/jobs.json")
+    total = merge_and_save(store_path, jobs)
+    print(f"Updated {store_path} ({total} jobs in rolling {os.environ.get('JOBS_KEEP_DAYS','30')}-day window).")
 
     email_cfg = cfg.get("email", {})
     if os.environ.get("SKIP_EMAIL") == "1":
