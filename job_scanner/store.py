@@ -35,6 +35,7 @@ def job_to_dict(j: Job) -> dict:
         "url": j.url, "title": j.title, "company": j.company,
         "location": j.location, "source": j.source, "posted": j.posted,
         "score": j.score, "experience_req": j.experience_req,
+        "exp_years": j.exp_years, "tier": j.tier,
         "resume": j.resume, "resume_path": j.resume_path,
         "matched": list(j.matched or [])[:8],
     }

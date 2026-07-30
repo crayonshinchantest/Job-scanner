@@ -1,12 +1,11 @@
 name: Daily job list
 
-# Target ~9:00 PM IST. GitHub's free scheduler is best-effort and often runs
-# 5-30 min LATE, so we schedule at 15:00 UTC (8:30 PM IST) as a buffer — a
-# typical delay then lands the email around 9:00 PM. It can still drift; for an
-# exact 9:00 PM send, use the macOS launchd option in the README instead.
+# Target ~7:00 PM IST. 13:30 UTC = 19:00 IST. GitHub's free scheduler is
+# best-effort and can run 5-30 min late, so the email usually lands 7:00-7:30 PM.
+# For an exact 7:00 PM send, use the macOS launchd option in the README.
 on:
   schedule:
-    - cron: "0 15 * * *"
+    - cron: "30 13 * * *"
   workflow_dispatch: {}   # lets you run it manually from the Actions tab
 
 permissions:

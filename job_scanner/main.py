@@ -10,7 +10,8 @@ import sys
 
 import yaml
 
-from .experience import within_cap
+from .companies import company_tier
+from .experience import required_min_years, within_cap
 from .geo import is_india
 from .matcher import score_job
 from .report import build_excel, send_email
@@ -75,31 +76,39 @@ def main() -> int:
             continue
         ok, exp_label = within_cap(job.description, cap)
         job.experience_req = exp_label
+        job.exp_years = required_min_years(job.description)
         if not ok:
             dropped_exp += 1
             continue
         if job.score < cfg["min_match_score"]:
             dropped_score += 1
             continue
+        job.tier = company_tier(job.company)
         job.resume, job.resume_path = recommend(job.title, job.description, job.company)
         kept.append(job)
 
-    kept.sort(key=lambda j: j.score, reverse=True)
+    # Premium companies first, then by match score.
+    tier_rank = {"Premium": 0, "Established": 1, "Other": 2}
+    kept.sort(key=lambda j: (tier_rank.get(j.tier, 2), -j.score))
     jobs = kept[: cfg["max_results"]]
     print(f"Kept {len(jobs)} jobs (dropped {dropped_geo} non-India, "
           f"{dropped_exp} over {cap} yrs exp, {dropped_score} low-match).")
+
+    # Persist the FULL set to the store the dashboard reads (committed by Action).
+    store_path = os.environ.get("JOBS_STORE", "data/jobs.json")
+    total = merge_and_save(store_path, jobs)
+    print(f"Updated {store_path} ({total} jobs in rolling {os.environ.get('JOBS_KEEP_DAYS','30')}-day window).")
+
+    # The EMAIL excludes senior roles (3+ yrs) — keep it early-career focused.
+    email_cap = int(cfg.get("email_max_experience_years", 2))
+    email_jobs = [j for j in jobs if j.exp_years is None or j.exp_years <= email_cap]
 
     out_dir = os.environ.get("JOB_SCANNER_OUT", ".")
     os.makedirs(out_dir, exist_ok=True)
     fname = f"Your_List_{dt.date.today():%Y-%m-%d}.xlsx"
     path = os.path.join(out_dir, fname)
-    build_excel(jobs, path)
-    print(f"Wrote {path}")
-
-    # Persist to the rolling store the dashboard reads (committed by the Action).
-    store_path = os.environ.get("JOBS_STORE", "data/jobs.json")
-    total = merge_and_save(store_path, jobs)
-    print(f"Updated {store_path} ({total} jobs in rolling {os.environ.get('JOBS_KEEP_DAYS','30')}-day window).")
+    build_excel(email_jobs, path)
+    print(f"Wrote {path} ({len(email_jobs)} jobs <= {email_cap} yrs for email).")
 
     email_cfg = cfg.get("email", {})
     if os.environ.get("SKIP_EMAIL") == "1":
@@ -107,7 +116,7 @@ def main() -> int:
         return 0
     try:
         send_email(
-            path, jobs,
+            path, email_jobs,
             subject=email_cfg.get("subject", "Your List"),
             to_addr=email_cfg.get("to", ""),
             from_addr=email_cfg.get("from", ""),

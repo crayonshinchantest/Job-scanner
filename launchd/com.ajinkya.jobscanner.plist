@@ -19,7 +19,7 @@
     <string>/Users/ajinkya/Coding Projects/job-scanner</string>
     <key>StartCalendarInterval</key>
     <dict>
-        <key>Hour</key><integer>21</integer>
+        <key>Hour</key><integer>19</integer>
         <key>Minute</key><integer>0</integer>
     </dict>
     <key>StandardOutPath</key>

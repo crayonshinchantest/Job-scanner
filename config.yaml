@@ -17,6 +17,11 @@ keywords:
   - category manager
   - business analyst strategy
   - management consulting
+  - chief of staff
+  - founder's office
+  - ceo office
+  - business associate
+  - management trainee
 
 # Locations to search — India only. Add/remove hubs as you like.
 locations:
@@ -31,15 +36,18 @@ locations:
 # Only keep jobs posted within this many hours.
 max_age_hours: 24
 
-# Drop jobs that require more than this many years of experience.
-# (You have ~1 yr, so 0-3 yr roles.)
-max_experience_years: 3
+# Capture jobs up to this many years of experience so the dashboard has a range
+# to filter across. The dashboard defaults to hiding 3+ yr roles; slide to change.
+max_experience_years: 5
+
+# The daily EMAIL excludes anything above this (you have ~1 yr — no 3+ roles).
+email_max_experience_years: 2
 
 # A job must score at least this (0-100) to make your list.
 min_match_score: 35
 
-# Cap the number of rows in the emailed Excel (best matches first).
-max_results: 60
+# Cap the number of rows stored / emailed (best matches first).
+max_results: 100
 
 # ── Email ─────────────────────────────────────────────────────────────────
 email:
