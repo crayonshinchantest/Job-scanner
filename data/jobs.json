@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T19:23:02",
+  "updated": "2026-08-05T19:17:06",
   "jobs": [
     {
       "url": "https://in.linkedin.com/jobs/view/lead-product-marketing-rlc-vrf-at-carrier-4445161481",
@@ -394,6 +394,31 @@
       "first_seen": "2026-08-04"
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/senior-manager-growth-bd-at-flipkart-4449137044",
+      "title": "Senior Manager- Growth & BD",
+      "company": "Flipkart",
+      "location": "Bengaluru, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 100,
+      "experience_req": "2+ yrs",
+      "exp_years": 2,
+      "tier": "Premium",
+      "resume": "Marketing — E-commerce category (Myntra)",
+      "resume_path": "Marketing and branding/Myntra category/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "strategy",
+        "mis",
+        "kpi",
+        "growth",
+        "gtm",
+        "marketing",
+        "brand",
+        "category"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/product-marketing-manager-at-ganeshaspeaks-com-4445058964",
       "title": "Product Marketing Manager",
       "company": "GaneshaSpeaks.com",
@@ -442,6 +467,56 @@
         "marketing"
       ],
       "first_seen": "2026-08-03"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/category-analyst-at-lowe-s-companies-inc-4437007369",
+      "title": "Category Analyst",
+      "company": "Lowe's Companies, Inc.",
+      "location": "Bengaluru, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 99,
+      "experience_req": "2+ yrs",
+      "exp_years": 2,
+      "tier": "Other",
+      "resume": "Data / Analytics",
+      "resume_path": "It and analytics /Ajinkya Kolhe IIM Visakhapatnam.docx",
+      "matched": [
+        "strategy",
+        "market research",
+        "dashboard",
+        "growth",
+        "marketing",
+        "category",
+        "business analyst",
+        "consulting"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/marketing-manager-fmcg-upto-60-lpa-at-talentiser-4448978952",
+      "title": "Marketing Manager || FMCG || upto 60 LPA",
+      "company": "Talentiser",
+      "location": "Mumbai, Maharashtra, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 97,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "strategy",
+        "strategic planning",
+        "annual operating plan",
+        "aop",
+        "kpi",
+        "growth",
+        "marketing",
+        "brand"
+      ],
+      "first_seen": "2026-08-05"
     },
     {
       "url": "https://in.linkedin.com/jobs/view/graduate-growth-marketing-manager-at-revolut-4446424314",
@@ -517,6 +592,81 @@
       "first_seen": "2026-08-04"
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/growth-associate-%E2%80%93-sales-revenue-at-vedantu-4449102329",
+      "title": "Growth Associate – Sales & Revenue",
+      "company": "Vedantu",
+      "location": "Bengaluru, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 95,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Premium",
+      "resume": "Data / Analytics",
+      "resume_path": "It and analytics /Ajinkya Kolhe IIM Visakhapatnam.docx",
+      "matched": [
+        "strategy",
+        "mis",
+        "dashboard",
+        "growth",
+        "marketing",
+        "consulting",
+        "planning",
+        "analytics"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/brand-manager-at-the-sleep-company-4448965266",
+      "title": "Brand Manager",
+      "company": "The Sleep Company",
+      "location": "Mumbai Metropolitan Region",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 95,
+      "experience_req": "4+ yrs",
+      "exp_years": 4,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "strategy",
+        "growth",
+        "go-to-market",
+        "marketing",
+        "brand",
+        "product marketing",
+        "category",
+        "excel"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/go-to-market-gtm-strategist-at-hp-4449040288",
+      "title": "Go-To-Market (GTM) Strategist",
+      "company": "HP",
+      "location": "Bengaluru East, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-04",
+      "score": 94,
+      "experience_req": "4+ yrs",
+      "exp_years": 4,
+      "tier": "Other",
+      "resume": "Data / Analytics",
+      "resume_path": "It and analytics /Ajinkya Kolhe IIM Visakhapatnam.docx",
+      "matched": [
+        "strategy",
+        "kpi",
+        "growth",
+        "financial modeling",
+        "gtm",
+        "go-to-market",
+        "marketing",
+        "category"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/brand-manager-haematology-at-dr-reddy-s-laboratories-4448856904",
       "title": "Brand Manager - Haematology",
       "company": "Dr. Reddy's Laboratories",
@@ -540,6 +690,31 @@
         "product marketing"
       ],
       "first_seen": "2026-08-04"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/brand-communication-manager-at-tradelab-technologies-4449125005",
+      "title": "Brand Communication Manager",
+      "company": "Tradelab Technologies",
+      "location": "Mumbai Metropolitan Region",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 93,
+      "experience_req": "3+ yrs",
+      "exp_years": 3,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "strategy",
+        "mis",
+        "kpi",
+        "growth",
+        "marketing",
+        "brand",
+        "consulting",
+        "planning"
+      ],
+      "first_seen": "2026-08-05"
     },
     {
       "url": "https://in.linkedin.com/jobs/view/growth-marketing-associate-at-oraton-executive-communication-coach-4442824747",
@@ -745,7 +920,7 @@
       "company": "BiteSpeed",
       "location": "Bengaluru, Karnataka, India",
       "source": "LinkedIn",
-      "posted": "2026-08-03",
+      "posted": "2026-08-05",
       "score": 91,
       "experience_req": "3+ yrs",
       "exp_years": 3,
@@ -838,6 +1013,31 @@
         "power bi"
       ],
       "first_seen": "2026-08-04"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/growth-performance-manager-founding-team-quick-com-startup-at-talentiser-4448954350",
+      "title": "Growth & Performance Manager - Founding team || Quick Com startup",
+      "company": "Talentiser",
+      "location": "Gurugram, Haryana, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 91,
+      "experience_req": "3+ yrs",
+      "exp_years": 3,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "forecasting",
+        "mis",
+        "dashboard",
+        "growth",
+        "gtm",
+        "marketing",
+        "category",
+        "analytics"
+      ],
+      "first_seen": "2026-08-05"
     },
     {
       "url": "https://in.linkedin.com/jobs/view/marketing-manager-india-at-aerogen-4447288519",
@@ -963,6 +1163,56 @@
         "consulting"
       ],
       "first_seen": "2026-08-04"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/marketing-executive-b2b-at-the-smarketers-4449477826",
+      "title": "Marketing Executive (B2B)",
+      "company": "The Smarketers",
+      "location": "Hyderabad, Telangana, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 89,
+      "experience_req": "2+ yrs",
+      "exp_years": 2,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "strategy",
+        "mis",
+        "dashboard",
+        "growth",
+        "marketing",
+        "planning",
+        "analytics",
+        "excel"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/manager-product-revenue-strategy-narratives-sports-at-jiostar-4429245226",
+      "title": "Manager - Product & Revenue Strategy (Narratives), Sports",
+      "company": "JioStar",
+      "location": "Mumbai, Maharashtra, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 89,
+      "experience_req": "4+ yrs",
+      "exp_years": 4,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "strategy",
+        "gtm",
+        "go-to-market",
+        "marketing",
+        "brand",
+        "category",
+        "consulting",
+        "analytics"
+      ],
+      "first_seen": "2026-08-05"
     },
     {
       "url": "https://in.linkedin.com/jobs/view/growth-marketing-manager-at-kim-cc-4443681605",
@@ -1405,6 +1655,31 @@
         "positioning"
       ],
       "first_seen": "2026-08-04"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/performance-growth-marketing-manager-at-harp-4447356139",
+      "title": "Performance / Growth Marketing Manager",
+      "company": "HARP",
+      "location": "Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 85,
+      "experience_req": "5+ yrs",
+      "exp_years": 5,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "strategy",
+        "kpi",
+        "dashboard",
+        "growth",
+        "marketing",
+        "planning",
+        "analytics",
+        "excel"
+      ],
+      "first_seen": "2026-08-05"
     },
     {
       "url": "https://in.linkedin.com/jobs/view/director-marketing-india-at-harman-india-4427851444",
@@ -2193,6 +2468,81 @@
       "first_seen": "2026-08-04"
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/lead-marketing-at-swiggy-4449111131",
+      "title": "Lead - Marketing",
+      "company": "Swiggy",
+      "location": "Bengaluru, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 79,
+      "experience_req": "2+ yrs",
+      "exp_years": 2,
+      "tier": "Premium",
+      "resume": "Strategy — Internet/Marketplace (OLX)",
+      "resume_path": "Strategy/OLX/Ajinkya Kolhe IIM Visakhapatnam_OLX.docx",
+      "matched": [
+        "strategy",
+        "growth",
+        "gtm",
+        "go-to-market",
+        "marketing",
+        "brand",
+        "planning",
+        "excel"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/marketing-lead-at-hair-and-care-tips-4449497195",
+      "title": "Marketing Lead",
+      "company": "Hair and Care Tips",
+      "location": "Chandigarh, Chandigarh, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 79,
+      "experience_req": "4+ yrs",
+      "exp_years": 4,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "strategy",
+        "growth",
+        "marketing",
+        "brand",
+        "branding",
+        "category",
+        "analytics",
+        "excel"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/senior-performance-marketing-manager-at-nap-chief-4447393445",
+      "title": "Senior Performance Marketing Manager",
+      "company": "Nap Chief",
+      "location": "Navi Mumbai, Maharashtra, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 79,
+      "experience_req": "3+ yrs",
+      "exp_years": 3,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "strategy",
+        "mis",
+        "kpi",
+        "growth",
+        "marketing",
+        "brand",
+        "planning",
+        "analytics"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/brand-strategist-at-sprintpark-4443679563",
       "title": "Brand Strategist",
       "company": "SPRINTPARK",
@@ -2337,6 +2687,31 @@
       "first_seen": "2026-08-04"
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/marketing-lead-%E2%80%94-founder-s-office-at-qonfido-4448973421",
+      "title": "Marketing Lead — Founder's Office",
+      "company": "Qonfido",
+      "location": "Mumbai, Maharashtra, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 77,
+      "experience_req": "1+ yrs",
+      "exp_years": 1,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "dashboard",
+        "growth",
+        "marketing",
+        "brand",
+        "branding",
+        "category",
+        "analytics",
+        "excel"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/head-of-growth-d2c-at-noise-4446941974",
       "title": "Head of Growth - D2C",
       "company": "Noise",
@@ -2360,6 +2735,31 @@
         "analytics"
       ],
       "first_seen": "2026-07-31"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/growth-marketing-amazon-at-beyondads-4443736734",
+      "title": "Growth Marketing - Amazon",
+      "company": "BeyondAds",
+      "location": "Hyderabad, Telangana, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 76,
+      "experience_req": "3+ yrs",
+      "exp_years": 3,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "strategy",
+        "mis",
+        "growth",
+        "marketing",
+        "brand",
+        "category",
+        "analytics",
+        "excel"
+      ],
+      "first_seen": "2026-08-05"
     },
     {
       "url": "https://in.linkedin.com/jobs/view/category-manager-at-urban-company-4442843521",
@@ -2650,6 +3050,31 @@
       "first_seen": "2026-08-01"
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/growth-marketing-lead-at-cometchat-4449678172",
+      "title": "Growth Marketing Lead",
+      "company": "CometChat",
+      "location": "Chennai, Tamil Nadu, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 75,
+      "experience_req": "4+ yrs",
+      "exp_years": 4,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "strategy",
+        "mis",
+        "growth",
+        "marketing",
+        "analytics",
+        "sql",
+        "positioning",
+        "campaign"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/marketing-intern-at-karmalifeai-4434578065",
       "title": "Marketing Intern",
       "company": "KarmaLifeAI",
@@ -2744,6 +3169,81 @@
         "excel"
       ],
       "first_seen": "2026-08-03"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/brand-strategy-at-capgemini-4449479318",
+      "title": "Brand Strategy",
+      "company": "Capgemini",
+      "location": "Gurgaon, Haryana, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 74,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Premium",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "strategy",
+        "competitor benchmarking",
+        "mis",
+        "growth",
+        "go-to-market",
+        "marketing",
+        "brand",
+        "branding"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/digital-marketing-intern-at-xenonstack-moments-4449405653",
+      "title": "Digital Marketing - Intern",
+      "company": "XenonStack Moments",
+      "location": "Sahibzada Ajit Singh Nagar, Punjab, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 74,
+      "experience_req": "0+ yrs",
+      "exp_years": 0,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "mis",
+        "kpi",
+        "growth",
+        "marketing",
+        "brand",
+        "product marketing",
+        "category",
+        "analytics"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/ai-growth-marketing-intern-at-lanmea-4448960758",
+      "title": "AI & Growth Marketing Intern",
+      "company": "Lanmea",
+      "location": "Bengaluru, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 74,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "mis",
+        "kpi",
+        "dashboard",
+        "growth",
+        "marketing",
+        "brand",
+        "planning",
+        "analytics"
+      ],
+      "first_seen": "2026-08-05"
     },
     {
       "url": "https://in.linkedin.com/jobs/view/category-manager-at-flexiple-4445955315",
@@ -3311,6 +3811,31 @@
       "first_seen": "2026-08-02"
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/founder-s-office-marketing-at-betaxlab-llp-4448582270",
+      "title": "Founder's Office (Marketing)",
+      "company": "BetaXLab LLP",
+      "location": "Jaipur, Rajasthan, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-04",
+      "score": 72,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "strategy",
+        "mis",
+        "dashboard",
+        "growth",
+        "gtm",
+        "marketing",
+        "brand",
+        "analytics"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/assistant-brand-manager-marketing-brand-marketing-manager-at-bajaj-consumer-care-4444895073",
       "title": "Assistant Brand Manager Marketing/ Brand Marketing Manager",
       "company": "Bajaj Consumer Care",
@@ -3737,6 +4262,56 @@
         "positioning"
       ],
       "first_seen": "2026-08-03"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/marketing-manager-at-wenger-watson-4448993009",
+      "title": "Marketing Manager",
+      "company": "Wenger & Watson",
+      "location": "Bengaluru, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 71,
+      "experience_req": "4+ yrs",
+      "exp_years": 4,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "strategy",
+        "gtm",
+        "go-to-market",
+        "marketing",
+        "brand",
+        "category",
+        "excel",
+        "mba"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/performance-marketing-manager-at-bluorng-4448979907",
+      "title": "Performance Marketing Manager",
+      "company": "BLUORNG",
+      "location": "New Delhi, Delhi, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 71,
+      "experience_req": "3+ yrs",
+      "exp_years": 3,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "strategy",
+        "mis",
+        "growth",
+        "gtm",
+        "marketing",
+        "brand",
+        "planning",
+        "analytics"
+      ],
+      "first_seen": "2026-08-05"
     },
     {
       "url": "https://in.linkedin.com/jobs/view/social-media-strategist-at-wedding-asia-4445137394",
@@ -4463,6 +5038,81 @@
       "first_seen": "2026-08-04"
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/executive-sr-executive-brand-furniture-retail-division-at-nilkamal-limited-4448972061",
+      "title": "Executive/Sr. Executive - Brand (Furniture Retail Division)",
+      "company": "Nilkamal Limited",
+      "location": "Mumbai, Maharashtra, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 69,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "strategy",
+        "growth",
+        "marketing",
+        "brand",
+        "category",
+        "planning",
+        "excel",
+        "retail"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/growth-manager-at-kshm-4449102745",
+      "title": "Growth Manager",
+      "company": "kshm",
+      "location": "Gurugram, Haryana, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 69,
+      "experience_req": "3+ yrs",
+      "exp_years": 3,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "strategy",
+        "dashboard",
+        "growth",
+        "marketing",
+        "brand",
+        "category",
+        "analytics",
+        "d2c"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/digital-marketing-specialist-at-daytesters-4449430976",
+      "title": "Digital Marketing Specialist",
+      "company": "DayTesters",
+      "location": "Bengaluru, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 69,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "kpi",
+        "growth",
+        "marketing",
+        "brand",
+        "planning",
+        "analytics",
+        "excel",
+        "positioning"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/ib-strategy-competitor-benchmarking-avp-at-deutsche-bank-4446345456",
       "title": "IB Strategy & Competitor Benchmarking, AVP",
       "company": "Deutsche Bank",
@@ -5068,6 +5718,31 @@
         "positioning"
       ],
       "first_seen": "2026-08-04"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/junior-marketing-executive-%E2%80%93-investor-outreach-ai-digital-marketing-at-enigmasoft-technologies-4449423714",
+      "title": "Junior Marketing Executive – Investor Outreach, AI & Digital Marketing",
+      "company": "EnigmaSoft Technologies",
+      "location": "Panaji, Goa, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 67,
+      "experience_req": "0+ yrs",
+      "exp_years": 0,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "market research",
+        "growth",
+        "marketing",
+        "brand",
+        "planning",
+        "analytics",
+        "excel",
+        "management"
+      ],
+      "first_seen": "2026-08-05"
     },
     {
       "url": "https://in.linkedin.com/jobs/view/junior-social-media-strategist-at-life-half-4445191591",
@@ -5706,6 +6381,81 @@
       "first_seen": "2026-08-04"
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/assistant-manager-media-finance-at-godrej-industries-group-4449495577",
+      "title": "Assistant Manager Media Finance",
+      "company": "Godrej Industries Group",
+      "location": "Mumbai, Maharashtra, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 65,
+      "experience_req": "0+ yrs",
+      "exp_years": 0,
+      "tier": "Premium",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "mis",
+        "dashboard",
+        "financial modeling",
+        "marketing",
+        "brand",
+        "planning",
+        "excel",
+        "mba"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/d2c-brand-partnerships-associate-at-nfx-digital-4448977695",
+      "title": "D2C Brand Partnerships' Associate",
+      "company": "NFX Digital",
+      "location": "New Delhi, Delhi, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 65,
+      "experience_req": "2+ yrs",
+      "exp_years": 2,
+      "tier": "Other",
+      "resume": "Marketing — Business development (Walmart)",
+      "resume_path": "Marketing and branding/Walmart business development/Ajinkya_Kolhe_IIM_Visakhapatnam.pdf",
+      "matched": [
+        "mis",
+        "growth",
+        "go-to-market",
+        "marketing",
+        "brand",
+        "excel",
+        "management",
+        "b2b"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/media-marketing-manager-at-zinc-broccoli-4447348744",
+      "title": "Media Marketing Manager",
+      "company": "Zinc & Broccoli",
+      "location": "Bengaluru, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 65,
+      "experience_req": "1+ yrs",
+      "exp_years": 1,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "strategy",
+        "kpi",
+        "growth",
+        "marketing",
+        "brand",
+        "analytics",
+        "positioning",
+        "management"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/marcomm-strategist-at-agl-hakuhodo-4444882189",
       "title": "MarComm Strategist",
       "company": "AGL - Hakuhodo",
@@ -5850,6 +6600,81 @@
         "campaign"
       ],
       "first_seen": "2026-08-02"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/brand-strategist-at-social-dna-4447374860",
+      "title": "Brand Strategist",
+      "company": "Social DNA",
+      "location": "Hyderabad, Telangana, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 64,
+      "experience_req": "3+ yrs",
+      "exp_years": 3,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "strategy",
+        "growth",
+        "marketing",
+        "brand",
+        "branding",
+        "planning",
+        "excel",
+        "management"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/growth-marketer-at-yourfriendlyhr-4448989950",
+      "title": "Growth Marketer",
+      "company": "YourfriendlyHR",
+      "location": "Bengaluru, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 64,
+      "experience_req": "3+ yrs",
+      "exp_years": 3,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "strategy",
+        "growth",
+        "marketing",
+        "brand",
+        "planning",
+        "analytics",
+        "excel",
+        "positioning"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/marcomm-strategist-at-agl-hakuhodo-4449105166",
+      "title": "MarComm Strategist",
+      "company": "AGL - Hakuhodo",
+      "location": "Gurugram, Haryana, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 64,
+      "experience_req": "0+ yrs",
+      "exp_years": 0,
+      "tier": "Other",
+      "resume": "Consumer Insights / Research",
+      "resume_path": "Consumer Insights/Ajinkya_Kolhe_IIM Visakhapatnam.pdf",
+      "matched": [
+        "strategy",
+        "strategic planning",
+        "market research",
+        "growth",
+        "marketing",
+        "brand",
+        "planning",
+        "excel"
+      ],
+      "first_seen": "2026-08-05"
     },
     {
       "url": "https://in.linkedin.com/jobs/view/digital-marketing-specialist-at-evotech-global-4442378219",
@@ -6201,7 +7026,7 @@
       "company": "Hevo Data",
       "location": "Bengaluru, Karnataka, India",
       "source": "LinkedIn",
-      "posted": "2026-08-03",
+      "posted": "2026-08-05",
       "score": 63,
       "experience_req": "4+ yrs",
       "exp_years": 4,
@@ -6294,6 +7119,81 @@
         "fmcg"
       ],
       "first_seen": "2026-08-04"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/assistant-manager-medical-marketing-at-danone-4449497113",
+      "title": "Assistant Manager - Medical Marketing",
+      "company": "Danone",
+      "location": "Mumbai, Maharashtra, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 63,
+      "experience_req": "5+ yrs",
+      "exp_years": 5,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "strategy",
+        "mis",
+        "kpi",
+        "growth",
+        "marketing",
+        "brand",
+        "mba",
+        "campaign"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/marketing-manager-%E2%80%94-content-demand-generation-at-spotonix-inc-4448032205",
+      "title": "Marketing Manager — Content & Demand Generation",
+      "company": "Spotonix Inc.",
+      "location": "Bengaluru, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 63,
+      "experience_req": "4+ yrs",
+      "exp_years": 4,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "growth",
+        "go-to-market",
+        "marketing",
+        "category",
+        "analytics",
+        "excel",
+        "sql",
+        "b2b"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/marketing-specialist-at-careerxperts-consulting-4448026215",
+      "title": "Marketing Specialist",
+      "company": "CareerXperts Consulting",
+      "location": "India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 63,
+      "experience_req": "3+ yrs",
+      "exp_years": 3,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "strategy",
+        "market research",
+        "growth",
+        "marketing",
+        "brand",
+        "analytics",
+        "excel",
+        "campaign"
+      ],
+      "first_seen": "2026-08-05"
     },
     {
       "url": "https://in.linkedin.com/jobs/view/paid-media-at-hcltech-4445909365",
@@ -6801,6 +7701,56 @@
         "campaign"
       ],
       "first_seen": "2026-08-03"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/head-of-growth-at-mainstreet-4448038138",
+      "title": "Head of Growth",
+      "company": "Mainstreet",
+      "location": "Mumbai Metropolitan Region",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 60,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "growth",
+        "marketing",
+        "brand",
+        "planning",
+        "analytics",
+        "excel",
+        "mba",
+        "management"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/social-media-content-marketing-at-daiom-4447365471",
+      "title": "Social Media & Content Marketing",
+      "company": "DAiOM",
+      "location": "Gurgaon, Haryana, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 60,
+      "experience_req": "2+ yrs",
+      "exp_years": 2,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "strategy",
+        "growth",
+        "marketing",
+        "brand",
+        "branding",
+        "category",
+        "planning",
+        "analytics"
+      ],
+      "first_seen": "2026-08-05"
     },
     {
       "url": "https://in.linkedin.com/jobs/view/project-executive-%E2%80%93-founder-s-office-strategic-initiatives-at-brandstory-digital-4442702781",
@@ -7435,6 +8385,31 @@
         "positioning"
       ],
       "first_seen": "2026-08-04"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/growth-manager-at-curefit-4448001046",
+      "title": "Growth Manager",
+      "company": "Curefit",
+      "location": "Bengaluru, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 59,
+      "experience_req": "4+ yrs",
+      "exp_years": 4,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "kpi",
+        "dashboard",
+        "growth",
+        "marketing",
+        "analytics",
+        "excel",
+        "management",
+        "insights"
+      ],
+      "first_seen": "2026-08-05"
     },
     {
       "url": "https://in.linkedin.com/jobs/view/head-of-growth-at-damensch-4443274514",
@@ -8161,6 +9136,131 @@
       "first_seen": "2026-08-04"
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/senior-manager-dau-growth-at-meesho-4428970698",
+      "title": "Senior Manager - DAU Growth",
+      "company": "Meesho",
+      "location": "Bengaluru, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 57,
+      "experience_req": "5+ yrs",
+      "exp_years": 5,
+      "tier": "Premium",
+      "resume": "Marketing — E-commerce category (Myntra)",
+      "resume_path": "Marketing and branding/Myntra category/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "strategy",
+        "strategic planning",
+        "growth",
+        "marketing",
+        "category",
+        "planning",
+        "management",
+        "cross-functional"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/marketing-specialist-at-talentfinderx-4449499155",
+      "title": "Marketing Specialist",
+      "company": "TalentFinderX",
+      "location": "Pune Division, Maharashtra, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 57,
+      "experience_req": "5+ yrs",
+      "exp_years": 5,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "strategy",
+        "marketing",
+        "brand",
+        "planning",
+        "analytics",
+        "positioning",
+        "management",
+        "b2c"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/territory-manager-at-dr-reddy-s-laboratories-4447367290",
+      "title": "Territory Manager",
+      "company": "Dr. Reddy's Laboratories",
+      "location": "Rewari, Haryana, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 57,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Strategy — Consulting (Accenture)",
+      "resume_path": "Strategy/OLX/Ajinkya Kolhe IIM Visakhapatnam_Accenture .pdf",
+      "matched": [
+        "strategy",
+        "mis",
+        "growth",
+        "marketing",
+        "brand",
+        "consulting",
+        "excel",
+        "management"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/junior-account-manager-digital-marketing-at-the-brand-bee-4448945170",
+      "title": "Junior Account Manager- Digital Marketing",
+      "company": "The Brand Bee",
+      "location": "Gurugram, Haryana, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 57,
+      "experience_req": "1+ yrs",
+      "exp_years": 1,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "strategy",
+        "growth",
+        "marketing",
+        "brand",
+        "excel",
+        "management",
+        "campaign",
+        "insights"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/manager-platform-marketing-digital-at-jiostar-4438095477",
+      "title": "Manager - Platform Marketing, Digital",
+      "company": "JioStar",
+      "location": "Mumbai Metropolitan Region",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 57,
+      "experience_req": "5+ yrs",
+      "exp_years": 5,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "strategy",
+        "growth",
+        "marketing",
+        "brand",
+        "excel",
+        "mba",
+        "management",
+        "retail"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/marketing-intern-at-upstox-4442816925",
       "title": "Marketing Intern",
       "company": "Upstox",
@@ -8623,6 +9723,81 @@
       "first_seen": "2026-08-04"
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/social-media-manager-4448981503",
+      "title": "Social Media Manager",
+      "company": "Kindmat foods Private Limited",
+      "location": "Gurugram, Haryana, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 55,
+      "experience_req": "2+ yrs",
+      "exp_years": 2,
+      "tier": "Other",
+      "resume": "Consumer Insights / Research",
+      "resume_path": "Consumer Insights/Ajinkya_Kolhe_IIM Visakhapatnam.pdf",
+      "matched": [
+        "strategy",
+        "mis",
+        "growth",
+        "marketing",
+        "brand",
+        "category",
+        "analytics",
+        "excel"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/digital-marketing-associate-at-pacific-foods-4449114852",
+      "title": "Digital Marketing Associate",
+      "company": "Pacific Foods",
+      "location": "Ghaziabad, Uttar Pradesh, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 55,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "marketing",
+        "brand",
+        "planning",
+        "analytics",
+        "excel",
+        "fmcg",
+        "campaign",
+        "insights"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/digital-marketing-executive-at-dev-jewels-4447338943",
+      "title": "Digital Marketing Executive",
+      "company": "Dev Jewels",
+      "location": "Mumbai, Maharashtra, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 55,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "growth",
+        "marketing",
+        "brand",
+        "excel",
+        "positioning",
+        "management",
+        "b2b",
+        "campaign"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/brand-strategist-at-skinbae-india-4442399147",
       "title": "Brand Strategist",
       "company": "Skinbae India",
@@ -8749,7 +9924,7 @@
       "company": "Gensler",
       "location": "Mumbai Metropolitan Region",
       "source": "LinkedIn",
-      "posted": "2026-08-04",
+      "posted": "2026-08-05",
       "score": 54,
       "experience_req": "2+ yrs",
       "exp_years": 2,
@@ -9682,6 +10857,130 @@
       "first_seen": "2026-08-04"
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/key-account-manager-i-at-swiggy-4448996785",
+      "title": "Key Account Manager I",
+      "company": "Swiggy",
+      "location": "Bengaluru, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 53,
+      "experience_req": "1+ yrs",
+      "exp_years": 1,
+      "tier": "Premium",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "market research",
+        "dashboard",
+        "growth",
+        "marketing",
+        "brand",
+        "excel",
+        "management",
+        "b2b"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/founding-marketing-manager-at-noa-4448984513",
+      "title": "Founding Marketing Manager",
+      "company": "Noa",
+      "location": "Gurugram, Haryana, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 53,
+      "experience_req": "2+ yrs",
+      "exp_years": 2,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "strategy",
+        "mis",
+        "growth",
+        "marketing",
+        "brand",
+        "category",
+        "d2c"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/performance-marketing-manager-at-goodspace-ai-4446649650",
+      "title": "Performance Marketing Manager",
+      "company": "GoodSpace AI",
+      "location": "Jaipur, Rajasthan, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 53,
+      "experience_req": "5+ yrs",
+      "exp_years": 5,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "growth",
+        "gtm",
+        "marketing",
+        "power bi",
+        "sql",
+        "d2c",
+        "campaign",
+        "insights"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/marketing-specialist-at-capvartis-4449145910",
+      "title": "Marketing Specialist",
+      "company": "Capvartis",
+      "location": "Akuhaito, Nagaland, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 53,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "kpi",
+        "marketing",
+        "brand",
+        "analytics",
+        "excel",
+        "management",
+        "campaign",
+        "insights"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/brand-manager-at-flexiple-4449477477",
+      "title": "Brand Manager",
+      "company": "Flexiple",
+      "location": "India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 53,
+      "experience_req": "3+ yrs",
+      "exp_years": 3,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "strategy",
+        "growth",
+        "marketing",
+        "brand",
+        "positioning",
+        "mba",
+        "management",
+        "campaign"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/designer-brand-guidelines-remote-at-landor-4417952624",
       "title": "Designer (Brand Guidelines) (Remote)",
       "company": "Landor",
@@ -10072,7 +11371,7 @@
       "company": "BrandStory Digital",
       "location": "Bengaluru, Karnataka, India",
       "source": "LinkedIn",
-      "posted": "2026-08-03",
+      "posted": "2026-08-05",
       "score": 51,
       "experience_req": "2+ yrs",
       "exp_years": 2,
@@ -10217,6 +11516,156 @@
       "first_seen": "2026-08-04"
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/marketing-business-development-lead-at-payomatix-technologies-4448976812",
+      "title": "Marketing & Business Development Lead",
+      "company": "Payomatix Technologies",
+      "location": "Noida, Uttar Pradesh, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 51,
+      "experience_req": "3+ yrs",
+      "exp_years": 3,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "growth",
+        "marketing",
+        "brand",
+        "excel",
+        "management",
+        "b2b",
+        "campaign",
+        "cross-functional"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/digital-marketing-manager-at-colortouch-india-4447357314",
+      "title": "Digital Marketing Manager",
+      "company": "COLORTOUCH INDIA",
+      "location": "Varanasi, Uttar Pradesh, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 51,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "growth",
+        "marketing",
+        "brand",
+        "planning",
+        "analytics",
+        "management",
+        "campaign",
+        "cross-functional"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/offline-marketing-executive-at-bewakoof%C2%AE-4448021169",
+      "title": "Offline Marketing Executive",
+      "company": "BEWAKOOF®",
+      "location": "Bengaluru, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 51,
+      "experience_req": "2+ yrs",
+      "exp_years": 2,
+      "tier": "Other",
+      "resume": "Strategy — Consumer services (Tumbledry)",
+      "resume_path": "Strategy/Ajinkya_Kolhe_Tumbledry_ACM.pdf",
+      "matched": [
+        "budgeting",
+        "growth",
+        "marketing",
+        "brand",
+        "branding",
+        "retail",
+        "d2c",
+        "campaign"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/jr-digital-marketing-executive-at-invorush-4449482261",
+      "title": "Jr. Digital Marketing Executive",
+      "company": "Invorush",
+      "location": "Kolkata, West Bengal, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 51,
+      "experience_req": "0+ yrs",
+      "exp_years": 0,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "growth",
+        "marketing",
+        "brand",
+        "planning",
+        "analytics",
+        "management",
+        "campaign",
+        "sales"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/growth-associate-gtm-at-dreamspan-4448961018",
+      "title": "Growth Associate - GTM",
+      "company": "Dreamspan",
+      "location": "Bengaluru, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 51,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "mis",
+        "growth",
+        "gtm",
+        "marketing",
+        "brand",
+        "d2c",
+        "campaign",
+        "insights"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/digital-marketing-executive-at-3ding-4449466378",
+      "title": "Digital Marketing Executive",
+      "company": "3Ding",
+      "location": "Ambattur, Tamil Nadu, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 51,
+      "experience_req": "1+ yrs",
+      "exp_years": 1,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "strategy",
+        "growth",
+        "marketing",
+        "brand",
+        "analytics",
+        "mba",
+        "campaign",
+        "leadership"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/brand-strategist-at-the-cocktail-story-4445471939",
       "title": "Brand Strategist",
       "company": "The Cocktail Story",
@@ -10357,6 +11806,56 @@
       "first_seen": "2026-08-04"
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/creative-strategist-at-lwyd-interactive-4448995538",
+      "title": "Creative Strategist",
+      "company": "LWYD Interactive",
+      "location": "Bengaluru, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 50,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "strategy",
+        "market research",
+        "growth",
+        "marketing",
+        "brand",
+        "analytics",
+        "excel",
+        "fmcg"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/marketing-strategist-at-praan-4447348667",
+      "title": "Marketing Strategist",
+      "company": "Praan",
+      "location": "Mumbai, Maharashtra, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 50,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "strategy",
+        "mis",
+        "kpi",
+        "marketing",
+        "brand",
+        "management",
+        "campaign",
+        "insights"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/digital-marketing-specialist-meta-at-nir%C4%81-balance-4442819590",
       "title": "Digital Marketing Specialist - Meta",
       "company": "nirā balance",
@@ -10407,7 +11906,7 @@
       "company": "Urban Company",
       "location": "Chennai, Tamil Nadu, India",
       "source": "LinkedIn",
-      "posted": "2026-07-30",
+      "posted": "2026-08-05",
       "score": 49,
       "experience_req": "2+ yrs",
       "exp_years": 2,
@@ -10717,6 +12216,30 @@
         "presentation"
       ],
       "first_seen": "2026-08-04"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/seo-performance-marketing-executive-at-zantera-4447395609",
+      "title": "SEO & Performance Marketing Executive",
+      "company": "Zantera",
+      "location": "Mumbai, Maharashtra, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 49,
+      "experience_req": "1+ yrs",
+      "exp_years": 1,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "growth",
+        "gtm",
+        "marketing",
+        "planning",
+        "analytics",
+        "mba",
+        "campaign"
+      ],
+      "first_seen": "2026-08-05"
     },
     {
       "url": "https://in.linkedin.com/jobs/view/marketing-assistant-at-sales-co-asia-4444861844",
@@ -11100,6 +12623,31 @@
       "first_seen": "2026-08-04"
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/performance-director-paid-media-at-valerie-group-4447376880",
+      "title": "Performance Director (Paid Media)",
+      "company": "Valerie Group",
+      "location": "India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 48,
+      "experience_req": "4+ yrs",
+      "exp_years": 4,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "strategy",
+        "growth",
+        "unit economics",
+        "gtm",
+        "marketing",
+        "brand",
+        "analytics",
+        "campaign"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/social-media-marketing-executive-at-codezyng-4442836204",
       "title": "Social Media Marketing Executive",
       "company": "Codezyng",
@@ -11390,7 +12938,7 @@
       "company": "Thames & Tiger",
       "location": "Bengaluru, Karnataka, India",
       "source": "LinkedIn",
-      "posted": "2026-08-01",
+      "posted": "2026-08-05",
       "score": 47,
       "experience_req": "not stated",
       "exp_years": null,
@@ -11623,6 +13171,79 @@
         "insights"
       ],
       "first_seen": "2026-08-04"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/email-marketing-specialist-at-niscka-4448999828",
+      "title": "Email Marketing Specialist",
+      "company": "Niscka",
+      "location": "Noida, Uttar Pradesh, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 47,
+      "experience_req": "1+ yrs",
+      "exp_years": 1,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "growth",
+        "marketing",
+        "analytics",
+        "excel",
+        "management",
+        "b2b",
+        "campaign",
+        "insights"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/social-media-manager-at-kanha-group-4448968953",
+      "title": "Social Media Manager",
+      "company": "Kanha Group",
+      "location": "Jaipur, Rajasthan, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 47,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "strategy",
+        "growth",
+        "marketing",
+        "brand",
+        "planning",
+        "analytics",
+        "fmcg",
+        "campaign"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/digital-marketing-executive-at-ibridge-digital-4447362743",
+      "title": "Digital Marketing Executive",
+      "company": "iBridge Digital",
+      "location": "Hyderabad, Telangana, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 47,
+      "experience_req": "1+ yrs",
+      "exp_years": 1,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "growth",
+        "marketing",
+        "brand",
+        "branding",
+        "category",
+        "campaign"
+      ],
+      "first_seen": "2026-08-05"
     },
     {
       "url": "https://in.linkedin.com/jobs/view/brand-solutions-strategist-at-schbang-4444113893",
@@ -12318,6 +13939,155 @@
         "d2c"
       ],
       "first_seen": "2026-08-04"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/sales-manager-i-at-swiggy-4448590635",
+      "title": "Sales Manager I",
+      "company": "Swiggy",
+      "location": "Rajasthan, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-04",
+      "score": 45,
+      "experience_req": "0+ yrs",
+      "exp_years": 0,
+      "tier": "Premium",
+      "resume": "Marketing — Business development (Walmart)",
+      "resume_path": "Marketing and branding/Walmart business development/Ajinkya_Kolhe_IIM_Visakhapatnam.pdf",
+      "matched": [
+        "market research",
+        "dashboard",
+        "growth",
+        "marketing",
+        "excel",
+        "management",
+        "b2b",
+        "fmcg"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/sales-manager-i-at-swiggy-4448984923",
+      "title": "Sales Manager I",
+      "company": "Swiggy",
+      "location": "Bengaluru, Karnataka, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 45,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Premium",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "strategic planning",
+        "growth",
+        "marketing",
+        "planning",
+        "excel",
+        "management",
+        "campaign",
+        "revenue"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/sales-manager-i-at-swiggy-4447353907",
+      "title": "Sales Manager I",
+      "company": "Swiggy",
+      "location": "Satna, Madhya Pradesh, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 45,
+      "experience_req": "0+ yrs",
+      "exp_years": 0,
+      "tier": "Premium",
+      "resume": "Marketing — Business development (Walmart)",
+      "resume_path": "Marketing and branding/Walmart business development/Ajinkya_Kolhe_IIM_Visakhapatnam.pdf",
+      "matched": [
+        "market research",
+        "dashboard",
+        "growth",
+        "marketing",
+        "excel",
+        "management",
+        "b2b",
+        "fmcg"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/digital-marketing-executive-in-gurgaon-at-blue-nectar-4449411243",
+      "title": "Digital Marketing Executive in Gurgaon",
+      "company": "Blue Nectar",
+      "location": "Gurgaon, Haryana, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 45,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "growth",
+        "marketing",
+        "brand",
+        "analytics",
+        "iim",
+        "d2c",
+        "campaign"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/social-media-executive-female-internship-in-gurgaon-at-pan-india-group-pvt-ltd-4449404415",
+      "title": "Social Media Executive - Female Internship in Gurgaon",
+      "company": "PAN INDIA GROUP PVT. LTD",
+      "location": "Gurgaon, Haryana, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 45,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "mis",
+        "growth",
+        "marketing",
+        "brand",
+        "planning",
+        "excel",
+        "management",
+        "campaign"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/youtube-manager-at-drishti-ias-4449456529",
+      "title": "YouTube Manager",
+      "company": "Drishti IAS",
+      "location": "Delhi, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 45,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "strategy",
+        "growth",
+        "marketing",
+        "planning",
+        "analytics",
+        "excel",
+        "management",
+        "insights"
+      ],
+      "first_seen": "2026-08-05"
     },
     {
       "url": "https://in.linkedin.com/jobs/view/creative-strategist-at-odigma-4444896680",
@@ -13175,6 +14945,29 @@
       "first_seen": "2026-08-04"
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/marketing-expert-at-one75mb-hrm-pvt-ltd-4448025604",
+      "title": "Marketing Expert",
+      "company": "One75mb HRM Pvt Ltd.",
+      "location": "Noida, Uttar Pradesh, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 42,
+      "experience_req": "2+ yrs",
+      "exp_years": 2,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "growth",
+        "marketing",
+        "brand",
+        "analytics",
+        "excel",
+        "campaign"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/digital-marketing-specialist-blinkit-at-nir%C4%81-balance-4442816725",
       "title": "Digital Marketing Specialist - Blinkit",
       "company": "nirā balance",
@@ -13562,6 +15355,28 @@
       "first_seen": "2026-08-04"
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/brand-manager-at-nomio-foodtech-pvt-ltd-4448592618",
+      "title": "Brand Manager",
+      "company": "Nomio Foodtech Pvt Ltd",
+      "location": "Greater Delhi Area",
+      "source": "LinkedIn",
+      "posted": "2026-08-04",
+      "score": 41,
+      "experience_req": "3+ yrs",
+      "exp_years": 3,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "growth",
+        "marketing",
+        "brand",
+        "positioning",
+        "campaign"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/edtech-bda-upto-8lpa-at-beyond-border-consultants-4446987382",
       "title": "EDTECH BDA (UPTO 8LPA)",
       "company": "Beyond Border Consultants",
@@ -13828,6 +15643,30 @@
       "first_seen": "2026-08-04"
     },
     {
+      "url": "https://in.linkedin.com/jobs/view/digital-marketing-strategist-at-webeesocial-4448920890",
+      "title": "Digital Marketing Strategist",
+      "company": "WeBeeSocial",
+      "location": "New Delhi, Delhi, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 40,
+      "experience_req": "3+ yrs",
+      "exp_years": 3,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "strategy",
+        "marketing",
+        "brand",
+        "excel",
+        "campaign",
+        "insights",
+        "presentation"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
       "url": "https://in.linkedin.com/jobs/view/junior-campaign-manager-at-thames-tiger-4436281513",
       "title": "Junior Campaign Manager",
       "company": "Thames & Tiger",
@@ -14086,6 +15925,29 @@
         "revenue"
       ],
       "first_seen": "2026-08-04"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/branch-manager-direct-marketing-at-aditya-birla-capital-4413152617",
+      "title": "Branch Manager - Direct Marketing",
+      "company": "Aditya Birla Capital",
+      "location": "West Bengal, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 39,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Premium",
+      "resume": "Strategy (general)",
+      "resume_path": "Strategy/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "marketing",
+        "category",
+        "planning",
+        "management",
+        "revenue",
+        "sales"
+      ],
+      "first_seen": "2026-08-05"
     },
     {
       "url": "https://in.linkedin.com/jobs/view/performance-marketer-at-rajamthreads-4393406843",
@@ -15257,6 +17119,220 @@
         "product marketing"
       ],
       "first_seen": "2026-08-04"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/marketing-executive-at-classic-signages-pvt-ltd-4449039684",
+      "title": "Marketing Executive",
+      "company": "Classic Signages Pvt. Ltd.",
+      "location": "Jaipur, Rajasthan, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-04",
+      "score": 37,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "growth",
+        "marketing",
+        "management",
+        "retail",
+        "campaign",
+        "presentation",
+        "sales"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/manager-business-planning-and-strategy-at-jiostar-4441096441",
+      "title": "Manager - Business Planning and Strategy",
+      "company": "JioStar",
+      "location": "Mumbai Metropolitan Region",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 37,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Strategy (general)",
+      "resume_path": "Strategy/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "strategy",
+        "planning"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/product-marketing-specialist-at-owlsure-4449129155",
+      "title": "Product Marketing Specialist",
+      "company": "OwlSure",
+      "location": "Hyderabad, Telangana, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 37,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "marketing",
+        "product marketing"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/product-marketing-manager-at-newgen-software-4448029248",
+      "title": "Product Marketing Manager",
+      "company": "Newgen Software",
+      "location": "Noida, Uttar Pradesh, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 37,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "marketing",
+        "product marketing"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/product-marketing-manager-at-drdoctor-4448558358",
+      "title": "Product Marketing Manager",
+      "company": "DrDoctor",
+      "location": "Puducherry, Puducherry, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-04",
+      "score": 37,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "marketing",
+        "product marketing"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/product-marketing-manager-at-flexiple-4449467996",
+      "title": "Product Marketing Manager",
+      "company": "Flexiple",
+      "location": "India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 37,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "marketing",
+        "product marketing"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/product-marketing-manager-at-bdo-india-4448958830",
+      "title": "Product Marketing Manager",
+      "company": "BDO India",
+      "location": "Mumbai, Maharashtra, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 37,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "marketing",
+        "product marketing"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/product-marketing-manager-at-qure-ai-4448029146",
+      "title": "Product Marketing Manager",
+      "company": "Qure.ai",
+      "location": "Mumbai, Maharashtra, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 37,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "marketing",
+        "product marketing"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/product-marketing-specialist-at-my-baristyle-4449439641",
+      "title": "Product Marketing Specialist",
+      "company": "My Baristyle",
+      "location": "Mushahari, Bihar, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 37,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing (general)",
+      "resume_path": "Marketing and branding/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "marketing",
+        "product marketing"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/growth-marketing-manager-at-talentgigs-4448962716",
+      "title": "Growth Marketing Manager",
+      "company": "Talentgigs",
+      "location": "Coimbatore, Tamil Nadu, India",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 37,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing — Growth/Fintech (Upstox)",
+      "resume_path": "Marketing and branding/Growth Marketing at Upstox/Ajinkya_Kolhe_Resume.pdf",
+      "matched": [
+        "growth",
+        "marketing"
+      ],
+      "first_seen": "2026-08-05"
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/category-manager-non-media-marketing-at-general-mills-4448948938",
+      "title": "Category Manager, Non Media Marketing",
+      "company": "General Mills",
+      "location": "Mumbai Metropolitan Region",
+      "source": "LinkedIn",
+      "posted": "2026-08-05",
+      "score": 37,
+      "experience_req": "not stated",
+      "exp_years": null,
+      "tier": "Other",
+      "resume": "Marketing — E-commerce category (Myntra)",
+      "resume_path": "Marketing and branding/Myntra category/Ajinkya Kolhe IIM Visakhapatnam.pdf",
+      "matched": [
+        "marketing",
+        "category"
+      ],
+      "first_seen": "2026-08-05"
     },
     {
       "url": "https://in.linkedin.com/jobs/view/digital-marketing-specialist-at-citylaila-4445832021",
