@@ -52,20 +52,35 @@ APPS_PATH = "data/applications.json"
 
 st.set_page_config(page_title="Job Tracker", page_icon="🎯", layout="wide")
 
-# ── colourful theme ─────────────────────────────────────────────────────────
+# ── clean, minimal theme + subtle animations ────────────────────────────────
 st.markdown("""
 <style>
-.block-container { padding-top: 1.2rem; }
-.quote-box {
-  background: linear-gradient(100deg, #7c3aed 0%, #2563eb 55%, #06b6d4 100%);
-  color: #fff; padding: 16px 20px; border-radius: 14px; margin-bottom: 14px;
-  font-size: 18px; font-weight: 600; box-shadow: 0 6px 20px rgba(37,99,235,.25);
+:root { --accent:#4f46e5; }
+.block-container { padding-top: 1.1rem; max-width: 1100px; }
+h1 { font-weight: 700; letter-spacing: -0.5px; }
+.quote { text-align:center; color:#64748b; font-style:italic; font-size:15px;
+  margin: 0 0 4px; animation: fade .5s ease both; }
+.badge { display:inline-block; padding:1px 9px; border-radius:999px; color:#fff;
+  font-size:11px; font-weight:700; letter-spacing:.2px; }
+/* metric tiles: quiet */
+div[data-testid="stMetric"] { background:transparent; padding:2px 0; }
+div[data-testid="stMetricValue"] { font-size:26px; }
+div[data-testid="stMetricLabel"] { opacity:.7; }
+/* job cards: soft border, fade-in, gentle hover lift */
+div[data-testid="stVerticalBlockBorderWrapper"] {
+  border-radius:14px; border-color:#eceef2 !important;
+  transition: box-shadow .2s ease, transform .2s ease; animation: fade .35s ease both;
 }
-.badge { display:inline-block; padding:2px 10px; border-radius:999px; color:#fff;
-  font-size:12px; font-weight:700; }
-.jobcard { border:1px solid #e5e7eb; border-radius:14px; padding:6px 4px; }
-div[data-testid="stMetric"] { background:#f8fafc; border:1px solid #e5e7eb;
-  border-radius:12px; padding:8px 12px; }
+div[data-testid="stVerticalBlockBorderWrapper"]:hover {
+  box-shadow: 0 8px 24px rgba(15,23,42,.07); transform: translateY(-2px);
+}
+.stButton button { border-radius:9px; transition: transform .12s ease; }
+.stButton button:hover { transform: translateY(-1px); }
+@keyframes fade { from{opacity:0; transform:translateY(6px)} to{opacity:1; transform:none} }
+@media (prefers-color-scheme: dark) {
+  div[data-testid="stVerticalBlockBorderWrapper"] { border-color:#22262e !important; }
+  .quote { color:#94a3b8; }
+}
 </style>
 """, unsafe_allow_html=True)
 
@@ -149,14 +164,15 @@ def referral_message(j: dict) -> str:
     )
 
 
-def linkedin_note(j: dict) -> str:
-    """≤200 chars, job-specific, for the LinkedIn connect note box."""
+def linkedin_note(j: dict, limit: int = 250) -> str:
+    """≤250 chars, job-specific, for the LinkedIn connect note box."""
     title = j["title"]
     while True:
-        note = (f"Hi, I'm Ajinkya — MBA (IIM Vizag), strategy & marketing. Keen on the "
-                f"{title} role at {j['company']}; would love to connect and learn more. Thanks!")
-        if len(note) <= 200 or len(title) <= 6:
-            return note if len(note) <= 200 else note[:199] + "…"
+        note = (f"Hi, I'm Ajinkya — an MBA (IIM Vizag) in strategy & marketing, currently in "
+                f"the MD's office at Avighna Group. I'm keen on the {title} role at "
+                f"{j['company']} and would love to connect and learn more about your team. Thanks!")
+        if len(note) <= limit or len(title) <= 6:
+            return note if len(note) <= limit else note[:limit - 1] + "…"
         title = title.rsplit(" ", 1)[0]  # trim last word and retry
 
 
@@ -196,14 +212,11 @@ if "quote_override" not in st.session_state:
     st.session_state.quote_override = None
 auto_idx = int(time.time() // 300) % len(QUOTES)
 q = st.session_state.quote_override if st.session_state.quote_override is not None else QUOTES[auto_idx]
-qc1, qc2 = st.columns([9, 1])
-with qc1:
-    st.markdown(f'<div class="quote-box">✨ {q}</div>', unsafe_allow_html=True)
-with qc2:
-    st.write("")
-    if st.button("🔄 New", help="Show another quote (auto-rotates every 5 min)"):
-        st.session_state.quote_override = random.choice([x for x in QUOTES if x != q])
-        st.rerun()
+qc1, qc2 = st.columns([12, 1])
+qc1.markdown(f'<div class="quote">“{q}”</div>', unsafe_allow_html=True)
+if qc2.button("🔄", help="New quote (auto-rotates every 5 min)"):
+    st.session_state.quote_override = random.choice([x for x in QUOTES if x != q])
+    st.rerun()
 
 st.title("🎯 Job Tracker")
 if not USE_GH:
@@ -214,28 +227,35 @@ def n_status(s):
     return sum(1 for j in jobs if apps.get(j["url"], {}).get("status", "New") == s)
 
 
-c = st.columns(6)
+c = st.columns(5)
 c[0].metric("Total", len(jobs))
 c[1].metric("💎 Premium", sum(1 for j in jobs if j.get("tier") == "Premium"))
 c[2].metric("Applied", n_status("Applied"))
 c[3].metric("Interview", n_status("Interview"))
 c[4].metric("Offer", n_status("Offer"))
-c[5].metric("New", n_status("New"))
 
-# ── search + filters ────────────────────────────────────────────────────────
-st.text_input("🔎 Search company, role, or keyword (e.g. 'ceo office', 'brand', 'Amazon')",
+st.divider()
+
+# ── primary filters (up top, always visible) ────────────────────────────────
+st.text_input("🔎 Search company, role, or keyword — e.g. 'ceo office', 'brand', 'Amazon'",
               key="search", placeholder="Type and results filter instantly…")
-with st.sidebar:
-    st.header("Filters")
-    f_tier = st.multiselect("Company tier", ["Premium", "Established", "Other"],
+fc1, fc2, fc3 = st.columns([2, 2, 1])
+with fc1:
+    f_maxyears = st.slider("💼 Max experience (years)", 0, 6, 2,
+                           help="Default 2 hides 3+ yr roles. Slide up to see senior roles.")
+with fc2:
+    f_tier = st.multiselect("💎 Company tier", ["Premium", "Established", "Other"],
                             default=["Premium", "Established", "Other"])
-    f_maxyears = st.slider("Max experience required (years)", 0, 6, 2,
-                           help="Default 2 hides 3+ yr roles. Slide up to see more.")
+with fc3:
+    f_min = st.slider("🎯 Min match %", 0, 100, 0, 5)
+
+# ── secondary filters (sidebar) ─────────────────────────────────────────────
+with st.sidebar:
+    st.header("More filters")
     f_unstated = st.checkbox("Include 'experience not stated'", value=True)
     f_status = st.multiselect("Status", STATUSES, default=[])
     f_source = st.multiselect("Source", sorted({j["source"] for j in jobs}))
     f_resume = st.multiselect("Recommended resume", sorted({j.get("resume", "") for j in jobs if j.get("resume")}))
-    f_min = st.slider("Min match %", 0, 100, 0, 5)
     st.divider()
     if st.button("🔄 Reload from GitHub"):
         st.session_state.apps, st.session_state.apps_sha = load_apps()
@@ -297,7 +317,7 @@ for j in shown:
                 st.caption("Referral request (copy with the icon top-right):")
                 st.code(referral_message(j), language=None)
                 note = linkedin_note(j)
-                st.caption(f"LinkedIn connect note ({len(note)}/200 chars):")
+                st.caption(f"LinkedIn connect note ({len(note)}/250 chars):")
                 st.code(note, language=None)
         with right:
             st.write(f"{STATUS_COLOR.get(status,'⚪')} **{status}**"
