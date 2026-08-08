@@ -319,10 +319,18 @@ shown = [j for j in jobs if visible(j)]
 tier_rank = {"Premium": 0, "Established": 1, "Other": 2}
 shown.sort(key=lambda j: (apps.get(j["url"], {}).get("status", "New") != "New",
                           tier_rank.get(j.get("tier", "Other"), 2), -j.get("score", 0)))
-st.caption(f"Showing {len(shown)} of {len(jobs)} jobs")
+
+# Paginate — rendering hundreds of cards at once overloads Streamlit Cloud.
+pc1, pc2 = st.columns([3, 1])
+pc1.caption(f"{len(shown)} matching · {len(jobs)} total")
+per_page = pc2.selectbox("Show", [15, 30, 60, "All"], index=0, label_visibility="collapsed",
+                         help="Fewer cards load faster. Use search/filters to narrow.")
+render = shown if per_page == "All" else shown[: int(per_page)]
+if len(render) < len(shown):
+    st.caption(f"Showing top {len(render)} — refine filters or search to see specific roles.")
 
 # ── job cards ──────────────────────────────────────────────────────────────
-for j in shown:
+for j in render:
     url = j["url"]
     a = apps.get(url, {})
     status = a.get("status", "New")
