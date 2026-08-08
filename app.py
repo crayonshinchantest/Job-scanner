@@ -130,6 +130,7 @@ def _read_public(path):
     return {}
 
 
+@st.cache_data(ttl=300, show_spinner="Loading jobs…")
 def load_jobs() -> list[dict]:
     data = {}
     if USE_GH:
@@ -283,6 +284,7 @@ with st.sidebar:
     f_resume = st.multiselect("Recommended resume", sorted({j.get("resume", "") for j in jobs if j.get("resume")}))
     st.divider()
     if st.button("🔄 Reload from GitHub"):
+        st.cache_data.clear()
         st.session_state.apps, st.session_state.apps_sha = load_apps()
         st.rerun()
 

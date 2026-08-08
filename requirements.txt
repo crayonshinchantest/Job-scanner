@@ -1,5 +1,5 @@
-requests>=2.31
-beautifulsoup4>=4.12
-openpyxl>=3.1
-PyYAML>=6.0
+# Used by the Streamlit dashboard (Streamlit Community Cloud installs this).
+# Keep it minimal — the app only needs these two. Scanner deps live in
+# requirements-scan.txt (installed by the GitHub Action).
 streamlit>=1.36
+requests>=2.31

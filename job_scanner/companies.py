@@ -44,23 +44,22 @@ _ESTABLISHED = {
 }
 
 
+_SUFFIX_RE = re.compile(
+    r"\b(pvt|private|ltd|limited|inc|llp|india|technologies|technology|solutions|services|group|labs|corp|co)\b")
+# Compile one alternation regex per tier ONCE (fast over thousands of rows).
+_PREMIUM_RE = re.compile(r"\b(?:" + "|".join(re.escape(t) for t in sorted(_PREMIUM, key=len, reverse=True)) + r")\b")
+_ESTAB_RE = re.compile(r"\b(?:" + "|".join(re.escape(t) for t in sorted(_ESTABLISHED, key=len, reverse=True)) + r")\b")
+
+
 def _norm(name: str) -> str:
-    n = (name or "").lower()
-    n = re.sub(r"\b(pvt|private|ltd|limited|inc|llp|india|technologies|technology|solutions|services|group|labs|corp|co)\b", " ", n)
+    n = _SUFFIX_RE.sub(" ", (name or "").lower())
     return re.sub(r"\s+", " ", n).strip()
 
 
-def _hit(name: str, tokens: set) -> bool:
-    n = _norm(name)
-    for t in tokens:
-        if re.search(r"\b" + re.escape(t) + r"\b", n):
-            return True
-    return False
-
-
 def company_tier(name: str) -> str:
-    if _hit(name, _PREMIUM):
+    n = _norm(name)
+    if _PREMIUM_RE.search(n):
         return "Premium"
-    if _hit(name, _ESTABLISHED):
+    if _ESTAB_RE.search(n):
         return "Established"
     return "Other"
