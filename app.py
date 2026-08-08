@@ -116,12 +116,32 @@ def check_password() -> bool:
 
 
 # ── storage ────────────────────────────────────────────────────────────────
+def _read_public(path):
+    """Read a JSON file straight from the public repo (no token needed)."""
+    if not REPO:
+        return {}
+    try:
+        import requests
+        r = requests.get(f"https://raw.githubusercontent.com/{REPO}/{BRANCH}/{path}", timeout=15)
+        if r.status_code == 200:
+            return r.json()
+    except Exception:
+        pass
+    return {}
+
+
 def load_jobs() -> list[dict]:
+    data = {}
     if USE_GH:
-        from gh_api import get_json
-        data, _ = get_json(REPO, JOBS_PATH, TOKEN, BRANCH)
+        try:
+            from gh_api import get_json
+            data, _ = get_json(REPO, JOBS_PATH, TOKEN, BRANCH)
+        except Exception:
+            data = _read_public(JOBS_PATH)  # token issue → public read still works
+    elif os.path.exists(JOBS_PATH):
+        data = json.load(open(JOBS_PATH))
     else:
-        data = json.load(open(JOBS_PATH)) if os.path.exists(JOBS_PATH) else {}
+        data = _read_public(JOBS_PATH)
     jobs = data.get("jobs", []) if isinstance(data, dict) else []
     for j in jobs:  # backfill tier for older entries
         if not j.get("tier"):
@@ -131,11 +151,16 @@ def load_jobs() -> list[dict]:
 
 def load_apps():
     if USE_GH:
-        from gh_api import get_json
-        return get_json(REPO, APPS_PATH, TOKEN, BRANCH)
+        try:
+            from gh_api import get_json
+            return get_json(REPO, APPS_PATH, TOKEN, BRANCH)
+        except Exception:
+            st.warning("Couldn't read saved applications — check the GITHUB_TOKEN secret. "
+                       "The dashboard still works; the ✅ Applied button won't save until it's fixed.")
+            return _read_public(APPS_PATH), None
     if os.path.exists(APPS_PATH):
         return json.load(open(APPS_PATH)), None
-    return {}, None
+    return _read_public(APPS_PATH), None
 
 
 def save_apps(apps, sha, msg):
